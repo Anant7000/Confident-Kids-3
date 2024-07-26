@@ -12,13 +12,13 @@
 
 .scroll-view-xyz {
     overflow-y: auto;
-    width: 250px;
+    width: 18%;
     background-color: #f4f4f4;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: auto;
 
 }
 
@@ -70,7 +70,7 @@
 }
 
 /* Responsive styles for screens smaller than 900px */
-@media (max-width: 950px) {
+@media (max-width: 1400px) {
     .container-xyz {
         flex-direction: row;
         flex-wrap: wrap;

@@ -1,0 +1,107 @@
+.container-123 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: auto;
+}
+
+.card-123 {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    height: 400px;
+    margin: 10px;
+
+}
+
+.card-123 img {
+    width: 65%;
+    height: auto;
+    margin-bottom: 2px;
+}
+
+.card-123 h2 {
+    font-size: 1.5em;
+    margin: 5px;
+
+}
+
+.card-123 .percentage-123 {
+    font-size: 1.2em;
+    color: #555;
+    margin: 5px;
+    padding: 0.3em;
+
+    background-color: #f8f8f8;
+}
+
+.card-123 .board-123 {
+    font-size: 1em;
+    /* color: #777; */
+    /* margin-bottom: 15px; */
+    margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .card-123 {
+        width: 42%;
+        height: auto;
+    }
+
+    .card-123 h2 {
+        font-size: 1.4em;
+    }
+
+    .card-123 .percentage-123 {
+        font-size: 1.1em;
+    }
+
+    .card-123 .board-123 {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 500px) {
+    .card-123 {
+        width: 40%;
+        height: auto;
+    }
+
+    .card-123 h2 {
+        font-size: 1em;
+    }
+
+    .card-123 .percentage-123 {
+        font-size: 0.7em;
+    }
+
+    .card-123 .board-123 {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 340px) {
+    .card-123 {
+        width: 39%;
+        height: auto;
+    }
+
+    .card-123 h2 {
+        font-size: 0.9em;
+    }
+
+    .card-123 .percentage-123 {
+        font-size: 0.6em;
+    }
+
+    .card-123 .board-123 {
+        font-size: 0.6em;
+    }
+}
