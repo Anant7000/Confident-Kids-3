@@ -2,6 +2,7 @@
      display: flex;
      align-items: center;
      overflow-x: auto;
+     overflow-y: hidden;
      justify-content: center;
      /* Hide vertical scroll */
      padding: 20px;
@@ -33,6 +34,7 @@
      position: relative;
      background-color: #fff;
      box-sizing: border-box;
+     display: inline-block;
      /* Include padding in width calculation */
      /* margin: auto; */
  }
