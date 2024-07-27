@@ -1,0 +1,90 @@
+ .review-container-653 {
+     display: flex;
+     align-items: center;
+     overflow-x: auto;
+     justify-content: center;
+     /* Hide vertical scroll */
+     padding: 20px;
+     gap: 30px;
+     height: 400px;
+     /* background-color: aquamarine; */
+     scroll-behavior: smooth;
+     white-space: nowrap;
+     /* Prevent wrapping */
+
+ }
+
+ .review-container-653::-webkit-scrollbar {
+     display: none;
+     /* Safari and Chrome */
+ }
+
+
+ .review-card-653 {
+
+     /* Prevent wrapping */
+     max-width: 280px;
+     min-width: 260px;
+     height: 350px;
+     padding: 20px;
+     border: 1px solid #ddd;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     position: relative;
+     background-color: #fff;
+     box-sizing: border-box;
+     /* Include padding in width calculation */
+     /* margin: auto; */
+ }
+
+ .quotation-icon-653 {
+     width: 26px;
+     height: 26px;
+     position: absolute;
+     top: 10px;
+     left: 15px;
+ }
+
+ .review-text-container-653 {
+     margin-bottom: 42px;
+     margin-top: 42px;
+     text-wrap: wrap;
+ }
+
+ .review-text-653 {
+     font-size: 16px;
+     color: #333;
+ }
+
+ .reviewer-info-653 {
+     display: flex;
+     align-items: center;
+     margin-top: 20px;
+     position: absolute;
+     bottom: 20px;
+     left: 20px
+ }
+
+ .reviewer-image-653 {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     margin-right: 10px;
+ }
+
+ .reviewer-name-653 {
+     font-size: 15px;
+     color: #555;
+ }
+
+ .reviewer-role-653 {
+     color: #1eaaf1;
+ }
+
+ @media (max-width:1400px) {
+     .review-container-653 {
+
+         justify-content: flex-start;
+
+     }
+ }
