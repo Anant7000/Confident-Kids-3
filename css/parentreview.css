@@ -90,3 +90,68 @@
 
      }
  }
+
+ /* ################################### contact section ############################ */
+
+ .custom-contact-section {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 20px;
+     background-color: royalblue;
+ }
+
+ .custom-logo {
+     width: 150px;
+     height: auto;
+ }
+
+ .custom-slogan {
+     margin: 10px 0;
+     font-size: 2em;
+     font-weight: bold;
+     text-align: center;
+ }
+
+ .custom-social-icons {
+     display: flex;
+     gap: 20px;
+     margin: 15px 0;
+ }
+
+ .custom-social-icons img {
+     width: 30px;
+     height: 30px;
+ }
+
+ .custom-buttons {
+     display: flex;
+     gap: 10px;
+     margin: 20px 0;
+ }
+
+ .custom-buttons a {
+     text-decoration: none;
+     padding: 10px 20px;
+     color: #fff;
+     background-color: #000000;
+     border-radius: 5px;
+     text-align: center;
+ }
+
+ @media (max-width: 600px) {
+     .custom-social-icons {
+         /* flex-direction: column; */
+         align-items: center;
+     }
+
+     .custom-buttons {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .custom-buttons a {
+         margin: 5px 0;
+         width: 80%;
+     }
+ }
