@@ -21,6 +21,17 @@
 
 }
 
+.img-wrapper-123 {
+    width: 50%;
+    height: 150px;
+    /* Adjust as needed */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2px;
+    border-radius: 100%;
+    border: 3px solid #000000;
+}
+
 .card-123 img {
     width: 65%;
     height: auto;
